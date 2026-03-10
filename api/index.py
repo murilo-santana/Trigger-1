@@ -33,7 +33,7 @@ def home():
 def trigger_workflows():
     # Loop que executa a lógica UMA VEZ por chamada
     for wf in WORKFLOWS:
-        # ALTERAÇÃO: Usuário atualizado para joaopavanelo-lang
+        # ALTERAÇÃO: Usuário atualizado para murilo-santana
         url = f"https://api.github.com/repos/murilo-santana/{wf['repo']}/actions/workflows/{wf['workflow']}/dispatches"
         data = {"ref": "main"}
         try:
