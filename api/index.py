@@ -21,6 +21,7 @@ WORKFLOWS = [
     {"repo": "Queuelist", "workflow" : "queue_list_sp5.yml"},
     {"repo": "base_inbound", "workflow" : "main_inbound.yaml"},
     {"repo": "Base-ended", "workflow" : "main_ended.yaml"},
+    {"repo": "piso_exp", "workflow" : "piso10.yaml"},
 ]
 
 # Rota principal para verificar se o app está no ar
